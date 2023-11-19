@@ -134,7 +134,7 @@ fun UserForm(
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        Text("Or Sign in with")
+/*        Text("Or Sign in with")
 
         Button(
             onClick = {
@@ -145,7 +145,7 @@ fun UserForm(
 
         ){
             Text(text = "Google")
-        }
+        }*/
 
 
 

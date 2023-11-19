@@ -32,7 +32,7 @@ fun SplashScreen (navController: NavHostController) {
 
     LaunchedEffect(key1 = true) {
         delay(2500L)
-
+        FirebaseAuth.getInstance().signOut()
         if (FirebaseAuth.getInstance().currentUser != null) {
             navController.navigate(AppGraphs.Main.name) {
                 popUpTo(AppScreens.SplashScreen.name) {

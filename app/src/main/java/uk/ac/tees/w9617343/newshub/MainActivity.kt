@@ -21,7 +21,7 @@ import uk.ac.tees.w9617343.newshub.screens.auth.CreateAccountScreen
 import uk.ac.tees.w9617343.newshub.screens.auth.LogInScreen
 import uk.ac.tees.w9617343.newshub.screens.main.MainScreen
 import uk.ac.tees.w9617343.newshub.screens.splash.SplashScreen
-import uk.ac.tees.w9617343.newshub.ui.theme.FireNewsTheme
+import uk.ac.tees.w9617343.newshub.ui.theme.NewsHubApp
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -30,7 +30,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            FireNewsTheme {
+            NewsHubApp {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
