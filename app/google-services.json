@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "630594823714",
+    "project_id": "newshub-c24db",
+    "storage_bucket": "newshub-c24db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630594823714:android:395c489cc0abda57c14c7b",
+        "android_client_info": {
+          "package_name": "uk.ac.tees.w9617343.newshub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630594823714-4mlvg9jn4oksfg7o0t3mtl6bdqtfgcv4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWFqF-yTnXUiguAk3HtVNlnPVNBrcuODY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630594823714-4mlvg9jn4oksfg7o0t3mtl6bdqtfgcv4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
