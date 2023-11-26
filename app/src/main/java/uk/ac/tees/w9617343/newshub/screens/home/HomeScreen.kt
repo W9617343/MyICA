@@ -75,7 +75,7 @@ fun HomeScreen(
                 CircularProgressIndicator(Modifier.align(Alignment.Center))
 
             }
-            
+
 
         } else {
 

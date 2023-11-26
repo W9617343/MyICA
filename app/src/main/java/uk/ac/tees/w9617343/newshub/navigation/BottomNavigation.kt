@@ -38,9 +38,6 @@ fun BottomNavigationBar(
                             launchSingleTop = true
                             restoreState = true
                         }
-
-
-
                 }
             )
         }
