@@ -30,14 +30,14 @@ fun BottomNavHost(
         composable(AppScreens.HomeScreen.name) {
             HomeScreen(navController = navController)
         }
-        composable(AppScreens.SavedScreen.name) {
+/*        composable(AppScreens.SavedScreen.name) {
             SavedScreen(navController)
-        }
+        }*/
         composable(AppScreens.SettingScreen.name) {
             SettingScreen(navController=navController, mainNavController = mainNavController)
         }
-        composable(AppScreens.SearchScreen.name) {
+/*        composable(AppScreens.SearchScreen.name) {
             SearchScreen(navController= navController)
-        }
+        }*/
     }
 }
