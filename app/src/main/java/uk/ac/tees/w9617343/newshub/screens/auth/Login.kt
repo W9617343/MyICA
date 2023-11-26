@@ -56,7 +56,6 @@ fun LogInScreen(
                             inclusive = true
                         }
                     }
-
                 }
             },
             newUserText = "Don't have an account? ",
@@ -65,8 +64,6 @@ fun LogInScreen(
                 navController.navigate(AppScreens.CreateAccountScreen.name)
             },
             onGoogleClick = {
-
-
             }
         )
     }

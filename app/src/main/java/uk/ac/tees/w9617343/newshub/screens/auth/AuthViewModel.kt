@@ -2,6 +2,7 @@ package uk.ac.tees.w9617343.newshub.screens.auth
 
 import android.content.Context
 import android.util.Log
+import android.widget.Toast
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.LiveData
@@ -43,10 +44,12 @@ class AuthViewModel @Inject constructor(private val firestore: FirebaseFirestore
                                 "AuthViewModel",
                                 "signInWithEmailAndPassword: Not successful in logging in"
                             )
+                            
                         }
                     }
             } catch (e: Exception) {
                 Log.d("AuthViewModel", "signInWithEmailAndPassword: ${e.message}")
+
             }
         }
 
