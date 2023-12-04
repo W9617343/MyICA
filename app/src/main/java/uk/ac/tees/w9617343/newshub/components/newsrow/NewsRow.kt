@@ -179,7 +179,7 @@ fun NewsRow(
                             }
                         )
 
-                        /*DropdownMenuItem(text = {
+                        DropdownMenuItem(text = {
                             Text("Copy Link")
                         },
                             onClick = {
@@ -216,7 +216,7 @@ fun NewsRow(
                                     Icon(Icons.Default.FavoriteBorder, "Save")
                                 }
                             }
-                        )*/
+                        )
                     }
                 }
 

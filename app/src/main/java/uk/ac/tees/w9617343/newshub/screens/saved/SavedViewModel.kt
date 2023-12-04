@@ -35,8 +35,6 @@ class SavedViewModel @Inject constructor(
                     }
                     savedNewsList.value = list
                 }
-
-
             }
     }
 

@@ -27,7 +27,7 @@ fun MainScreen(mainNavController:NavHostController) {
             Icons.Default.Home
         )
         ,
-/*        BottomNavIcon(
+        BottomNavIcon(
             "Search",
             AppScreens.SearchScreen.name,
             Icons.Default.Search
@@ -36,7 +36,7 @@ fun MainScreen(mainNavController:NavHostController) {
             "Saved",
             AppScreens.SavedScreen.name,
             Icons.Default.Favorite
-        ),*/
+        ),
         BottomNavIcon(
             "Settings",
             AppScreens.SettingScreen.name,
